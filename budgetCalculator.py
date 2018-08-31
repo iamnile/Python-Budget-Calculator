@@ -1,0 +1,11 @@
+rent = float(input("How much is your monthly rent?  "))
+phone = float(input("How much is your phone bill?  "))
+gym = float(input("How much is your gym membership?  "))
+utilities = float(input("How much is your monthly utility bill?  "))
+transportation = float(input("How much does it cost for transportation monthly?  "))
+music = float(input("How much do you spend on music a month?  "))
+expenses = float(rent + phone + gym + utilities + transportation + music)
+income = float(input("How much did you  make this week?  "))
+budget = ((income * 4) - expenses)/4
+print("Your total expenses are: $" + str(expenses))
+print("Your budget is $" + str(budget) + " for this week.")
